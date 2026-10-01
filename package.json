@@ -1,0 +1,14 @@
+{
+  "name": "broker-advisor-check-mcp",
+  "version": "1.0.0",
+  "description": "Look up and vet US financial advisors, brokers and firms using live FINRA BrokerCheck public records: registration status, disclosures, employment history, and plain-English red flags",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "type": "module",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0",
+    "zod": "^4.4.3"
+  }
+}

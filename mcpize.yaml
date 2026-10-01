@@ -1,0 +1,13 @@
+version: 1
+name: broker-advisor-check-mcp
+description: Look up and vet US financial advisors, brokers and firms using live FINRA BrokerCheck public records. Registration status, disclosures, employment history and plain-English red flags.
+runtime: typescript
+entry: server.js
+build:
+  install: npm install
+startCommand:
+  type: http
+  command: node server.js
+  port: 8080
+  healthCheck: /health
+  mcpPath: /mcp

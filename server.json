@@ -1,0 +1,17 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.tylerscomic-lab/broker-advisor-check-mcp",
+  "title": "FINRA Broker & Advisor Check",
+  "description": "Vet US financial advisors and firms from live FINRA BrokerCheck records with ranked red flags.",
+  "version": "1.0.0",
+  "repository": {
+    "url": "https://github.com/tylerscomic-lab/broker-advisor-check-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://broker-advisor-check-mcp.mcpize.run/mcp"
+    }
+  ]
+}
